@@ -1,0 +1,32 @@
+.navbar-brand{
+    margin: auto;
+    font-size: 2rem;
+}
+
+.container-custom{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.black{
+    top: 4rem;
+    width: 100%;
+    min-height: 1000px;
+    background-image: -webkit-linear-gradient(65deg, #4f4d4a 50%, #f7f2f2 50%);
+    position: absolute;
+    z-index:-1;
+}
+
+.form{
+    padding: 1rem;
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 4rem;
+}

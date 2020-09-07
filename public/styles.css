@@ -1,0 +1,71 @@
+.navbar-brand{
+    margin: auto;
+    font-size: 2rem;
+}
+
+.container-custom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.list{
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 4rem;
+}
+
+.list-item{
+    display: inline;
+    padding: 1rem;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.list-item p{
+    margin:0;
+}
+
+input[type="checkbox"]{
+    margin:0;
+}
+
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+  }
+
+.black{
+    top: 4rem;
+    width: 100%;
+    min-height: 1000px;
+    background-image: -webkit-linear-gradient(65deg, #4f4d4a 50%, #f7f2f2 50%);
+    position: absolute;
+    z-index:-1;
+}
+
+.remove{
+    width:20px;
+    height:20px;
+    font-size:10px;
+    padding:0;
+    position: relative;
+    right:1px;
+}
+
+.add{
+    margin-left:1rem;
+}
+
+@media screen and (max-width:479px){
+    .list{
+        width: 350px;
+    }
+    .black{
+        height: 700px;
+    }
+}
